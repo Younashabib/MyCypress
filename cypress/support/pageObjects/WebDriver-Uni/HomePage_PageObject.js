@@ -1,8 +1,6 @@
-/// <reference types ="Cypress"/>
-
-class HomePage_PageObject {
-  visitHomePage() {
-    cy.visit(Cypress.env("webDriverUni_WebPage"));
+class HomePage_PO {
+  visitHomepage() {
+    cy.visit(Cypress.env("webdriveruni_homepage"));
   }
 }
-export default HomePage_PageObject;
+export default HomePage_PO;
