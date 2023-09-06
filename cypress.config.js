@@ -13,11 +13,11 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,
     //baseUrl: "https://automationteststore.com/",
-    baseUrl: "https://www.webdriveruniversity.com/",
+    //baseUrl: "https://www.webdriveruniversity.com/",
     env: {
       first_name: "Sarah", //Making a Global Variable and used in contact-us (WebDriver Uni).
       webDriverUni_WebPage: "https://www.webdriveruniversity.com/",
-      AutomationStore_WebPage: "https://automationteststore.com/", //See automation Test Store > Variables and Cy-Commands >     cy.visit(Cypress.env("AutomationStore_WebPage") + "index.php?rt=content/contact");
+      //AutomationStore_WebPage: "https://automationteststore.com/", //See automation Test Store > Variables and Cy-Commands >     cy.visit(Cypress.env("AutomationStore_WebPage") + "index.php?rt=content/contact");
     },
   },
 });
