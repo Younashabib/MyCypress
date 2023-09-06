@@ -12,19 +12,19 @@ describe("Test Contact Us form via WebdriverUni", () => {
   beforeEach(function () {
     //cy.visit("http://www.webdriveruniversity.com");
     //cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
-    const homePage_PO = new HomePage_PO();
+    const homePage_PO = new HomePage_PO(); //see HomePage_PageObjects.js
     homePage_PO.visitHomepage();
     homePage_PO.clickOn_ContactUs_Button();
   });
   it("Should be able to submit a successful submission via contact us form", () => {
     cy.webpage_WebDriverUniversity();
     cy.webdriverUni_ContactForm_Submission(
-      data.first_name,
-      data.last_name,
-      data.email,
-      "How can I learn Cypress?",
-      "h1",
-      "Thank You for your Message!"
+      data.first_name, //Get first name
+      data.last_name, //Get last name
+      data.email, //Get email
+      "How can I learn Cypress?", //Comment
+      "h1", // Selector
+      "Thank You for your Message!" // Text to locate
       //cy.visit("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
       //cy.visit("http://www.webdriveruniversity.com");
       //cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
