@@ -9,10 +9,10 @@ describe("Test Contact Us form via WebdriverUni", () => {
   });
 
   beforeEach(function () {
-    cy.visit("http://www.webdriveruniversity.com");
+    cy.visit("/");
     cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
   });
-  it.only("Should be able to submit a successful submission via contact us form", () => {
+  it("Should be able to submit a successful submission via contact us form", () => {
     cy.webpage_WebDriverUniversity();
     cy.webdriverUni_ContactForm_Submission(
       data.first_name,

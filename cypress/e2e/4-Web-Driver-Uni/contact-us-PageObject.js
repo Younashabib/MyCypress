@@ -1,3 +1,4 @@
+import HomePage_PO from "../../support/pageObjects/WebDriver-Uni/HomePage_PageObject";
 /// <reference types="cypress" />
 
 describe("Test Contact Us form via WebdriverUni", () => {
@@ -9,10 +10,13 @@ describe("Test Contact Us form via WebdriverUni", () => {
   });
 
   beforeEach(function () {
-    cy.visit("http://www.webdriveruniversity.com");
-    cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
+    //cy.visit("http://www.webdriveruniversity.com");
+    //cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
+    const homePage_PO = new HomePage_PO();
+    homePage_PO.visitHomepage();
+    homePage_PO.clickOn_ContactUs_Button();
   });
-  it.only("Should be able to submit a successful submission via contact us form", () => {
+  it("Should be able to submit a successful submission via contact us form", () => {
     cy.webpage_WebDriverUniversity();
     cy.webdriverUni_ContactForm_Submission(
       data.first_name,
