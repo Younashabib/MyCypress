@@ -12,6 +12,9 @@ module.exports = defineConfig({
     experimentalSessionAndOrigin: true,
     defaultCommandTimeout: 10000,
     pageLoadTimeout: 120000,
+    screenshotOnRunFailure: true,
+    trashAssetsBeforeRuns: true,
+    video: false,
     //baseUrl: "https://automationteststore.com/",
     //baseUrl: "https://www.webdriveruniversity.com/",
     env: {
