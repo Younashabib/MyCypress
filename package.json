@@ -4,15 +4,17 @@
   "description": "Cypress Automation Framework",
   "main": "index.js",
   "scripts": {
-    "triggerAllTests-Headless" :"npx cypress run",
-    "triggerAllTests-Dashboard" : "npx cypress run --record --key 46663d84-ee2b-41b6-a2be-8e08e7147fef",
-    "triggerAllTests-Chrome" : "npx cypress run --browser Chrome",
-    "triggerAllTests-WebdriverUni" : "npx cypress --spec cypress/e2e/4-Web-Driver-Uni/*"
+    "triggerAllTests-Headless": "npx cypress run",
+    "triggerAllTests-Dashboard": "npx cypress run --record --key 46663d84-ee2b-41b6-a2be-8e08e7147fef",
+    "triggerAllTests-Chrome": "npx cypress run --browser Chrome",
+    "triggerAllTests-WebdriverUni": "npx cypress --spec cypress/e2e/4-Web-Driver-Uni/*"
   },
   "author": "Younas Habib Khan",
   "license": "ISC",
   "devDependencies": {
     "@cypress/xpath": "^2.0.3",
-    "cypress": "^12.14.0"
+    "cypress": "^12.14.0",
+    "cypress-multi-reporters": "^1.6.3",
+    "mocha-junit-reporter": "^2.2.1"
   }
 }
