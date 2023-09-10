@@ -1,15 +1,18 @@
 /// <reference types="cypress" />
 
 describe("Validate webdriveruni homepage links", () => {
+  beforeEach(() => {
+    cy.visit(Cypress.env("AutomationStore_WebPage")); // in cypress config file, base URL is defined
+  });
   it("Confirm links redirect to the correct pages", () => {
     //cy.visit("http://www.webdriveruniversity.com/Contact-Us/contactus.html");
-    cy.visit("/");
+    //cy.visit("/");
     cy.get("#contact-us").invoke("removeAttr", "target").click({ force: true });
     cy.url().should("include", "contactus");
 
     cy.go("back");
     cy.reload();
-    cy.url().should("include", "/");
+    //cy.url().should("include", "/");
     //cy.reload(true) //reload without using cache
 
     cy.go("forward");

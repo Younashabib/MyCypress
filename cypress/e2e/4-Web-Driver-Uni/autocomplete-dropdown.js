@@ -1,8 +1,12 @@
 /// <reference types = "Cypress"/>
 
 describe("Verify Autocomplete Dropdown List via Webdriver Unit", () => {
+  beforeEach(() => {
+    cy.visit(Cypress.env("webDriverUni_WebPage"));
+  });
+
   it("Select Specific Product via Autocomplete list", () => {
-    cy.visit("/");
+    //cy.visit("/");
     cy.get("#autocomplete-textfield").invoke("removeAttr", "target").click();
 
     cy.url().should("include", "autocomplete-textfield");
@@ -19,7 +23,7 @@ describe("Verify Autocomplete Dropdown List via Webdriver Unit", () => {
   });
 
   it("Select Product via Autocomplete List", () => {
-    cy.visit("/");
+    // cy.visit("/");
     cy.get("#autocomplete-textfield").invoke("removeAttr", "target").click();
     cy.url().should("include", "autocomplete-textfield");
 

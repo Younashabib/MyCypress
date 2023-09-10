@@ -13,6 +13,7 @@ class ContactUs_PageObject {
     cy.get("textarea.feedback-input").type(comment);
     cy.get('[type="submit"]').click();
     cy.get($selector).contains(textToLocate);
+    cy.screenshot();
   }
 }
 export default ContactUs_PageObject;

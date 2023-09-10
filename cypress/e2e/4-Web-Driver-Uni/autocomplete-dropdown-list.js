@@ -1,6 +1,9 @@
 /// <reference types="cypress" />
 
 describe("Verify Autocomplete dropwdown lists via webdriveruni", () => {
+  beforeEach(() => {
+    cy.visit(Cypress.env("webDriverUni_WebPage"));
+  });
   it("Select specific product via autocomplete list", () => {
     cy.visit("/");
     cy.get("#autocomplete-textfield")

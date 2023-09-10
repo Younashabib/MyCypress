@@ -4,7 +4,10 @@
   "description": "Cypress Automation Framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "triggerAllTests-Headless" :"npx cypress run",
+    "triggerAllTests-Dashboard" : "npx cypress run --record --key 46663d84-ee2b-41b6-a2be-8e08e7147fef",
+    "triggerAllTests-Chrome" : "npx cypress run --browser Chrome",
+    "triggerAllTests-WebdriverUni" : "npx cypress --spec cypress/e2e/4-Web-Driver-Uni/*"
   },
   "author": "Younas Habib Khan",
   "license": "ISC",
