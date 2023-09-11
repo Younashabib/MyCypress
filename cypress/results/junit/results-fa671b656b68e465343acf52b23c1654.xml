@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="8.315" tests="3" failures="0" skipped="1">
+  <testsuite name="Root Suite" timestamp="2023-09-11T08:12:01" tests="0" file="cypress\e2e\4-Web-Driver-Uni\same-origin-policy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cypress web security" timestamp="2023-09-11T08:12:01" tests="3" time="8.292" failures="0">
+    <testcase name="Cypress web security Validate visiting two different domains via user actions" time="2.997" classname="Validate visiting two different domains via user actions">
+    </testcase>
+    <testcase name="Cypress web security Origin command" time="2.889" classname="Origin command">
+    </testcase>
+  </testsuite>
+</testsuites>

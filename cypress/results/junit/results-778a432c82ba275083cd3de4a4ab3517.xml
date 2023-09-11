@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.054" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-09-11T08:08:24" tests="0" file="cypress\e2e\3- Automation-Test-Store\HairCare_PageObject.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Hair Care Page Verification" timestamp="2023-09-11T08:08:24" tests="1" time="7.028" failures="0">
+    <testcase name="Hair Care Page Verification Verify HairCare Page" time="4.170" classname="Verify HairCare Page">
+    </testcase>
+  </testsuite>
+</testsuites>

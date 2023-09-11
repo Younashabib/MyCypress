@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="7.202" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-09-11T08:07:50" tests="0" file="cypress\e2e\3- Automation-Test-Store\alias-invoke.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Alias and invoke" timestamp="2023-09-11T08:07:50" tests="3" time="7.168" failures="0">
+    <testcase name="Alias and invoke Validate a specific hair care product" time="2.498" classname="Validate a specific hair care product">
+    </testcase>
+    <testcase name="Alias and invoke Validate product thumbnail" time="0.786" classname="Validate product thumbnail">
+    </testcase>
+    <testcase name="Alias and invoke Calculate total of normal and sale products" time="0.928" classname="Calculate total of normal and sale products">
+    </testcase>
+  </testsuite>
+</testsuites>

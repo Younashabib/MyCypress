@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.759" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-09-11T08:09:06" tests="0" file="cypress\e2e\3- Automation-Test-Store\testfile.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="My new tesr" timestamp="2023-09-11T08:09:06" tests="1" time="0.685" failures="0">
+    <testcase name="My new tesr my new test file" time="0.643" classname="my new test file">
+    </testcase>
+  </testsuite>
+</testsuites>

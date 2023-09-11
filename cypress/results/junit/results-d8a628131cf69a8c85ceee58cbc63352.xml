@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="19.404" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-09-11T08:10:58" tests="0" file="cypress\e2e\4-Web-Driver-Uni\fileupload.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test file Upload Via Test driver unit" timestamp="2023-09-11T08:10:58" tests="2" time="19.359" failures="1">
+    <testcase name="Test file Upload Via Test driver unit Upload No FIle" time="3.607" classname="Upload No FIle">
+    </testcase>
+    <testcase name="Test file Upload Via Test driver unit Upload a File...." time="0.000" classname="Upload a File....">
+      <failure message="Timed out retrying after 10000ms: Expected to find element: `#myFile`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 10000ms: Expected to find element: `#myFile`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/4-Web-Driver-Uni/fileupload.js:22:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

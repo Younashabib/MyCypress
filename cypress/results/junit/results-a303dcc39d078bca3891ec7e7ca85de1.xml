@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="18.752" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-09-11T08:08:39" tests="0" file="cypress\e2e\3- Automation-Test-Store\iterate-over-elements.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Iterate over elements" timestamp="2023-09-11T08:08:39" tests="4" time="18.708" failures="0">
+    <testcase name="Iterate over elements Log information of all hair care products" time="3.558" classname="Log information of all hair care products">
+    </testcase>
+    <testcase name="Iterate over elements Add specific product to basket" time="2.932" classname="Add specific product to basket">
+    </testcase>
+    <testcase name="Iterate over elements Add new specific product to basket" time="3.203" classname="Add new specific product to basket">
+    </testcase>
+    <testcase name="Iterate over elements Add another new specific product to basket" time="4.085" classname="Add another new specific product to basket">
+    </testcase>
+  </testsuite>
+</testsuites>
